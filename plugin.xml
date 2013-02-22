@@ -6,7 +6,8 @@
 
     <name>Facebook Connect</name>
 
-    <asset src="www" />
+    <asset src="www/cdv-plugin-fb-connect.js" target="cdv-plugin-fb-connect.js" />
+    <asset src="www/facebook-js-sdk.js" target="facebook-js-sdk.js" />
     <access origin="m.facebook.com" />
     <access origin="graph.facebook.com" />
     <access origin="api.facebook.com" />
