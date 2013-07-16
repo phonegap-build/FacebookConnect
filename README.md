@@ -57,8 +57,8 @@ If you plan on rolling this out on Android, please note that you will need to [g
 Add the following to your config.xml
 
     <gap:plugin name="com.phonegap.plugins.facebookconnect">
-        <preference name="APP_ID" value="..." />
-        <preference name="APP_NAME" value="..." />
+        <param name="APP_ID" value="..." />
+        <param name="APP_NAME" value="..." />
     </gap:plugin>
 
 ## Manual Android Installation
