@@ -313,8 +313,9 @@
                                                   messageAsString:@"Error completing dialog."];
              } else {
                  if (result == FBWebDialogResultDialogNotCompleted) {
-                     // User clicked the "x" icon to Cancel
-                     pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_NO_RESULT];
+                    // User clicked the "x" icon to Cancel
+                    pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR
+                                                    messageAsString:@"User cancelled dialog."];
                  } else {
                      // Send the URL parameters back, for a requests dialog, the "request" parameter
                      // will include the resutling request id. For a feed dialog, the "post_id"
